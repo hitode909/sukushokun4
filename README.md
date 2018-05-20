@@ -1,6 +1,6 @@
 # sukushokun4
 
-Sukushokun4 crawls URLs, and upload PNG(PC, smartphone) and PDF.
+Sukushokun4 crawls URLs, take screenshots, and upload PNG(PC, smartphone) and PDF.
 
 ## Setup on Google API Dashboard
 
