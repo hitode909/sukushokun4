@@ -1,0 +1,26 @@
+{
+  "name": "sukushokun4",
+  "description": "Take screenshots and upload to Google Drive",
+  "env": {
+    "GOOGLE_CREDENTIAL": {
+      "description": "Credential JSON of service account",
+      "required": true
+    },
+    "SCHEDULE": {
+      "description": "Schedule to capture images. Default is `0 * * * *` (cron-style syntax)",
+      "required": false
+    },
+    "NUM_WORKERS": {
+      "description": "Number of concurrency. Default is 2",
+      "required": false
+    },
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jontewks/puppeteer-heroku-buildpack"
+    }
+  ]
+}

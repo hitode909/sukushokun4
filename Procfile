@@ -1,0 +1,1 @@
+clock: npm run clock
