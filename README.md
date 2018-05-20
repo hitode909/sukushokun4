@@ -27,15 +27,6 @@ Sukushokun4 crawls URLs, take screenshots, and upload PNG(PC, smartphone) and PD
 
 ## Run locally
 
-### Start cron
-
-```
-% npm install
-% GOOGLE_CREDENTIAL=$(cat PATH_TO_YOUR_SERVICE_ACCOUNT.JSON) npm start
-```
-
-### Run capture manually
-
 ```
 % npm install
 % GOOGLE_CREDENTIAL=$(cat PATH_TO_YOUR_SERVICE_ACCOUNT.JSON) npm start
