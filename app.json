@@ -1,6 +1,7 @@
 {
   "name": "sukushokun4",
   "description": "Take screenshots and upload to Google Drive",
+  "repository": "https://github.com/hitode909/sukushokun4",
   "env": {
     "GOOGLE_CREDENTIAL": {
       "description": "Credential JSON of service account",
