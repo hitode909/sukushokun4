@@ -10,7 +10,7 @@ Sukushokun4 crawls URLs, take screenshots, and upload PNG(PC, smartphone) and PD
 3. Create a service account on Google
     - Select role as editor.
 4. Download the credential JSON file of your service account
-    - One liner to minify JSON: `cat ~/Downloads/PATH_TO_SERVICE_ACCOUNT.json | ruby -rjson -e 'puts JSON.dump(JSON.parse(ARGF.read))' | pbcopy`
+    - One liner to minify JSON: `cat ~/Downloads/PATH_TO_SERVICE_ACCOUNT.json | ruby -rjson -e 'print JSON.dump(JSON.parse(ARGF.read))' | pbcopy`
 
 ## Setup on Google Drive
 
