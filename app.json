@@ -13,7 +13,7 @@
     "NUM_WORKERS": {
       "description": "Number of concurrency. Default is 2",
       "required": false
-    },
+    }
   },
   "buildpacks": [
     {
