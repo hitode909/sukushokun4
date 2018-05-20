@@ -4,8 +4,8 @@
   "description": "Capture screenshots and upload to Google Drive",
   "repository": "git@gighub.com:hitode909/sukushokun4.git",
   "scripts": {
-    "start": "node scripts/main.js",
-    "clock": "node scripts/clock.js"
+    "start": "node scripts/clock.js",
+    "capture": "node scripts/main.js"
   },
   "devDependencies": {
     "buffer-to-stream": "^1.0.0",

@@ -8,7 +8,7 @@ const job = new cron.CronJob({
     cronTime: schedule,
     onTick: () => {
         console.log('Capturing');
-        const job = spawn('npm', ['start'], { stdio: 'inherit' });
+        const job = spawn('npm', ['run capture'], { stdio: 'inherit' });
 
         job.on('exit', (code) => {
             console.log('Capturing exited with code ' + code.toString());
