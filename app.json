@@ -12,7 +12,7 @@
       "required": false
     },
     "NUM_WORKERS": {
-      "description": "Number of concurrency. Default is 2",
+      "description": "Number of concurrency. Default is 1",
       "required": false
     }
   },
