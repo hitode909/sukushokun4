@@ -14,6 +14,10 @@
     "NUM_WORKERS": {
       "description": "Number of concurrency. Default is 1",
       "required": false
+    },
+    "DELETE_OLD_FILES": {
+      "description": "Set to true when you want  to delete old files(older than 3 days)",
+      "required": false
     }
   },
   "buildpacks": [
